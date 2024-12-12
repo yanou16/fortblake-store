@@ -1,0 +1,35 @@
+@startuml
+left to right direction
+skinparam rectangle {
+    BackgroundColor LightGreen
+    BorderColor Black
+}
+
+rectangle "F\n2 sem\n1p" as F
+rectangle "G\n3 sem\n2p" as G
+rectangle "A\n3 sem\n4p" as A
+rectangle "J\n4 sem\n2p" as J
+rectangle "B\n4 sem\n2p" as B
+rectangle "C\n6 sem\n4p" as C
+rectangle "H\n2 sem\n1p" as H
+rectangle "E\n5 sem\n3p" as E
+rectangle "I\n2 sem\n1p" as I
+rectangle "K\n5 sem\n3p" as K
+rectangle "D\n3 sem\n2p" as D
+
+F --> G
+F --> J
+F --> E
+G --> A
+G --> H
+J --> B
+B --> C
+E --> I
+H --> K
+I --> K
+A --> D
+C --> D
+K --> D
+
+title Diagramme PERT - Mini Projet
+@enduml

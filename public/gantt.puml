@@ -1,0 +1,17 @@
+@startuml
+gantt
+    title Diagramme de GANTT - Mini Projet
+    Project starts 2024-01-01
+
+    [Tâche F] lasts 14 days
+    [Tâche G] starts at [Tâche F]'s end and lasts 21 days
+    [Tâche J] starts at [Tâche F]'s end and lasts 28 days
+    [Tâche A] starts at [Tâche G]'s end and lasts 21 days
+    [Tâche B] starts at [Tâche J]'s end and lasts 28 days
+    [Tâche C] starts at [Tâche B]'s end and lasts 42 days
+    [Tâche H] starts at [Tâche G]'s end and lasts 14 days
+    [Tâche E] starts at [Tâche F]'s end and lasts 35 days
+    [Tâche I] starts at [Tâche E]'s end and lasts 14 days
+    [Tâche K] starts at [Tâche H]'s end and [Tâche I]'s end and lasts 35 days
+    [Tâche D] starts at [Tâche A]'s end and [Tâche C]'s end and [Tâche K]'s end and lasts 21 days
+@enduml
