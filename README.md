@@ -1,3 +1,70 @@
+# FORTBLAKE E-Commerce
+
+Une boutique en ligne moderne de streetwear développée avec React, TypeScript et Firebase.
+
+## 📋 Description
+
+FORTBLAKE est une plateforme e-commerce spécialisée dans le streetwear qui offre :
+- Une interface utilisateur moderne et responsive
+- Un catalogue de produits organisé par collections et catégories
+- Un système de panier et de liste de souhaits
+- Une gestion des commandes et des comptes utilisateurs
+- Un système de newsletter et d'avis clients
+
+## 🛠️ Technologies Utilisées
+
+- **Frontend:**
+  - React 18
+  - TypeScript
+  - Styled Components
+  - React Router DOM v6
+  - Vite
+
+- **Backend & Services:**
+  - Firebase (Authentication, Firestore)
+  - Netlify/Vercel (Déploiement)
+
+## 🚀 Fonctionnalités
+
+- **Authentification:**
+  - Connexion par email/mot de passe
+  - Connexion avec Google
+  - Mode invité
+
+- **Catalogue:**
+  - Navigation par collections (Street, Essential, etc.)
+  - Filtres par catégorie, taille, et couleur
+  - Vue rapide des produits
+  - Système de recherche
+
+- **Panier & Commandes:**
+  - Gestion du panier
+  - Processus de commande en plusieurs étapes
+  - Formulaire de livraison
+  - Historique des commandes
+
+- **Expérience Utilisateur:**
+  - Liste de souhaits
+  - Système d'avis et notes
+  - Newsletter
+  - Pages d'information (À propos, Carrières, Magasins)
+
+## 💻 Installation
+
+```bash
+# Cloner le repository
+git clone [URL_DU_REPO]
+
+# Installer les dépendances
+npm install
+
+# Démarrer en mode développement
+npm run dev
+
+# Construire pour la production
+npm run build
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
